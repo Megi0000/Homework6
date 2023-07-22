@@ -1,0 +1,136 @@
+section{
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+.section1info{
+    width: 500px;
+    margin: 0px auto;
+}
+.section1info h4 {
+    color: #282828;
+}
+.section1info p{
+    color:#282828;
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+.section1info h1{
+    font-size: 50px;
+    color:#282828 ;
+    margin: 10px 5px;
+}
+.cardparent{
+    width: 100%;
+}
+.card{
+    width: 290px;
+    border: solid 1px #EAECF0;
+    text-align: left;
+}
+.card img{
+    width: 290px;
+}
+.cardchild1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 45px;
+}
+.card h2{
+    font-size: 18px;
+    color: #282828;
+    margin: 16px 4px;
+    padding-left: 14px;
+}
+.card h4{
+    color: #282828;
+    font-size: 14px;
+    padding-left: 18px;
+    margin-bottom: 8px;
+}
+.card p{
+    color: #282828;
+    font-size: 14px;
+    padding-left: 19px;
+    margin-bottom: 24px;
+}
+.icons{
+    display: flex;
+    gap: 16px;
+    padding-left: 17px;
+    margin-bottom: 15px;
+}
+.icon{
+    border-radius: 50px;
+    background-color: #F2F4F7;
+    padding: 13px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+    background-color: #53535354; 
+}
+/*აიქონები ფიგმადან არ გადმომიტანია პირდაპირ კოდით
+ ჩავსვი და ამიტომაც  ფერები უფრო მუქია ვიდრე ფიგმას ფაილში*/
+
+.footer-column1{
+    width: 35%;
+}
+.footer-column1 p{
+    font-size: 14px;
+    color: #282828;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 30px 0 0;
+}
+.iconsf{
+    display: flex;
+    gap:20px;
+}
+.footer-column2{
+    width: 20%;
+}
+.footer-column2 h2{
+    font-size: 20px;
+    color: #282828;
+    margin-bottom: 70px;
+    padding-left: 60px;
+}
+.footer-column2 li{
+    padding-left: 60px;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #282828;
+}
+.footer-column3{
+    width: 20%; 
+}
+.footer-column3 h2{
+    font-size: 20px;
+    color: #282828;
+    margin-bottom: 70px;
+    padding-left: 60px;
+}
+.footer-column3 li{
+    padding-left: 60px;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #282828;
+}
+.footer-column4 h2{
+    font-size: 20px;
+    color: #282828;
+    margin-bottom: 40px;
+    padding-left: 35px;
+}
+.button{
+    padding: 12px 20px 12px 22px ;
+    margin: 35px;
+    color: white;
+    background-color: #054A68;
+    border: 0px;
+}
